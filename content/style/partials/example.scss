@@ -1,0 +1,80 @@
+@import "blueprint";
+
+body {
+/*  @include fancy-type;*/
+
+  font-family: Helvetica, Arial, sans-serif;
+  background: #3D8CFF;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  
+  &:link,
+  &:visited {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  &:hover {
+    color: #000;
+  }
+}
+
+#main {
+  @include column(20);
+  @include last;
+  
+  float: right;
+  
+  h1 {
+    font-size: 135px;
+    font-weight: bold;
+    line-height: 0.8em;
+    letter-spacing: -5px;
+    padding-top: 10px;
+  }
+  
+  p {
+    margin: 1.5em 0;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  
+  ul {
+    margin: 1.5em;
+    
+    li {
+      list-style-type: square;
+    }
+  }
+}
+
+#sidebar {
+  @include column(4);
+  
+  float: left;
+  position: relative;
+  top: 28em;
+  padding: 1.5em 0;
+  
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    line-heigh: 1.2em;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 1.5em  0 3em 0;
+    
+    li {
+      a {
+        font-size: 0.8em;
+        line-height: 1.2em;
+      } 
+    }
+  }
+}
