@@ -1,0 +1,90 @@
+/* line 3, content/style/partials/example.scss */
+body {
+  /*  @include fancy-type;*/
+  font-family: Helvetica, Arial, sans-serif;
+  background: #3D8CFF;
+  color: #fff;
+}
+
+/* line 11, content/style/partials/example.scss */
+a {
+  text-decoration: none;
+}
+/* line 15, content/style/partials/example.scss */
+a:link, a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+/* line 20, content/style/partials/example.scss */
+a:hover {
+  color: #000;
+}
+
+/* line 25, content/style/partials/example.scss */
+#main {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 790px;
+  margin-right: 0;
+  float: right;
+}
+/* line 138, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_grid.scss */
+* html #main {
+  overflow-x: hidden;
+}
+/* line 31, content/style/partials/example.scss */
+#main h1 {
+  font-size: 106px;
+  font-weight: bold;
+  line-height: 0.8em;
+  letter-spacing: -5px;
+  padding-top: 10px;
+}
+/* line 39, content/style/partials/example.scss */
+#main p {
+  margin: 1.5em 0;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+/* line 45, content/style/partials/example.scss */
+#main ul {
+  margin: 1.5em;
+}
+/* line 48, content/style/partials/example.scss */
+#main ul li {
+  list-style-type: square;
+}
+
+/* line 54, content/style/partials/example.scss */
+#sidebar {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+  float: left;
+  position: relative;
+  top: 28em;
+  padding: 1.5em 0;
+}
+/* line 138, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_grid.scss */
+* html #sidebar {
+  overflow-x: hidden;
+}
+/* line 62, content/style/partials/example.scss */
+#sidebar h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  line-heigh: 1.2em;
+}
+/* line 69, content/style/partials/example.scss */
+#sidebar ul {
+  list-style-type: none;
+  margin: 1.5em  0 3em 0;
+}
+/* line 74, content/style/partials/example.scss */
+#sidebar ul li a {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
