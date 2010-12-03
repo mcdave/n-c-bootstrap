@@ -9,7 +9,7 @@ http_path = "/"
 
 sass_dir     = "content/style"
 css_dir      = "output/style"
-# output_style = :compressed
+output_style = :compressed
 sass_options = { :syntax => :scss }
 
 images_dir = "images"
